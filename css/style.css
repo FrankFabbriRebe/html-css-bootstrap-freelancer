@@ -4,3 +4,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* debug rules */
+.container  {
+    border: 2px solid salmon;
+    height: 100%;
+}
+
+.row    {
+    height: 50px;
+}
+
+[class^="col"] {
+    border: 2px solid rgb(129, 239, 65);
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* my_nav */
+.my_nav {
+    background-color: #2C3E50;
+    /* debug */
+    color: white;
+}
+
+/* my_jumbotron */
+.my_jumbotron   {
+    background-color: #19BC9C;
+}
+
+/* my_portfolio */
+.my_portfolio   {
+    /* debug */
+    height: 500px;
+}
+
+/* my_about */
+.my_about   {
+    background-color: #19BC9C;
+    /* debug */
+    /* height: 250px;  */
+}
+
+/* my_contact */
+.my_contact {
+    /* debug */
+    /* height: 500px; */
+}
+
+/* my_footer */
+.my_footer {
+    color: white;
+}
+
+.my_footer_top  {
+    background-color: #3B536D;
+}
+
+.my_footer_bottom   {
+    background-color: #2C3E4F;
+}
