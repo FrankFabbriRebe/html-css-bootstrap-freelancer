@@ -11,15 +11,10 @@
     height: 100%;
 }
 
-.row    {
-    height: 50px;
-}
-
 [class^="col"] {
     border: 2px solid rgb(129, 239, 65);
     height: 100%;
     text-align: center;
-    padding: 10px;
 }
 
 /* my_nav */
@@ -27,30 +22,44 @@
     background-color: #2C3E50;
     /* debug */
     color: white;
+    min-height: 50px;
+    text-align: center;
 }
 
 /* my_jumbotron */
 .my_jumbotron   {
     background-color: #19BC9C;
+    /* debug */
+    min-height: 150px;
+    text-align: center;
 }
 
 /* my_portfolio */
 .my_portfolio   {
-    /* debug */
-    height: 500px;
+    text-align: center;
 }
+
 
 /* my_about */
 .my_about   {
     background-color: #19BC9C;
     /* debug */
-    /* height: 250px;  */
+    text-align: center;
+}
+
+.about_title    {
+    min-height: 50px;
+}
+
+.download_button    {
+    min-height: 50px;
 }
 
 /* my_contact */
-.my_contact {
+.contact_me {
     /* debug */
-    /* height: 500px; */
+    min-height: 50px;
+    text-align: center;
 }
 
 /* my_footer */
