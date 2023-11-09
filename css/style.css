@@ -148,6 +148,19 @@ a {
     text-align: center;
 }
 
+.btn {
+    background-color: #19BC9C;
+    margin-top: 10px;
+}
+
+/* form BS */
+.form-control-lg    {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
 /* my_footer */
 .my_footer {
     color: white;
