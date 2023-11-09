@@ -18,7 +18,7 @@ a {
 .container  {
     /* height: 100%; */
     /* debug */
-    /* border: 2px solid salmon; */
+    border: 2px solid salmon;
 }
 
 [class^="col"] {
@@ -42,11 +42,9 @@ a {
     text-align: center;
 }
 
-.navbar {
-    height: 100%;
-    color: white;
+.bg-body-tertiary   {
+    background-color: #2C3E50;
 }
-
 
 .navbar-collapse    {
     flex-grow: 0;
