@@ -20,7 +20,7 @@ hr {
 }
 
 [class^="col"] {
-    /* border: 2px solid rgb(129, 239, 65); */
+    border: 2px solid rgb(129, 239, 65);
     height: 100%;
     text-align: center;
 }
@@ -33,6 +33,7 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
     /* debug */
     color: white;
     height: 10vh;
@@ -70,7 +71,7 @@ hr {
     height: 100%;
 }
 
-.line   {
+.line_white   {
     border: 2px solid white;
 }
 
@@ -88,6 +89,17 @@ hr {
     padding: 10px;
 }
 
+.line_black   {
+    border: 2px solid rgb(0, 0, 0);
+}
+.row img    {
+    height: 100%;
+    width: 100%;
+}
+
+.card   {
+    margin-bottom: 10px;
+}
 
 /* my_about */
 .my_about   {
