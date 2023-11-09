@@ -11,6 +11,9 @@ hr {
     background-color: white; /* Colore della linea */
   }
   
+  a {
+    text-decoration: none;
+  }
 
 /* debug rules */
 .container  {
@@ -89,6 +92,10 @@ hr {
     padding: 10px;
 }
 
+.my_portfolio .container    {
+    margin-bottom: 20px;
+}
+
 .line_black   {
     border: 2px solid rgb(0, 0, 0);
 }
@@ -105,8 +112,13 @@ hr {
 .my_about   {
     background-color: #19BC9C;
     padding: 10px;
+    color: white;
     /* debug */
     text-align: center;
+}
+
+.my_about .container    {
+    margin-bottom: 20px;
 }
 
 .about_title    {
@@ -114,7 +126,15 @@ hr {
 }
 
 .download_button    {
-    min-height: 50px;
+    border: 2px solid white;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.my_about a {
+    color: white;
 }
 
 /* my_contact */
